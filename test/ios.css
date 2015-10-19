@@ -1,0 +1,124 @@
+body
+{
+	background: #fff;
+	color: #111;
+}
+
+body, button, input, h1
+{
+	font-family: 'Helvetica LT Std', 'Helvetica LT', 'Arial', sans-serif;
+	font-weight: 100;
+}
+
+h1
+{
+	position: absolute;
+	font-weight: bold;
+	font-size: 20px;
+	width: 480px;
+	top: 12px;
+	left: 0;
+	right: 480px;
+	text-align: center;
+}
+
+input, button, .button
+{
+	border: 1px solid #888;
+	background-color: #fff;
+}
+
+button, .button
+{
+	letter-spacing: 1px;
+	border-radius: 5px;
+	
+}
+
+.button-primary
+{
+	color: #2087FC;
+	border-color: #2087FC;
+}
+
+
+.top-bar, .bottom-bar
+{
+	display: block;
+	height: 46px;
+	width: 480px;
+
+	border-bottom: 1px solid #e8e8e8;
+	background-color: #f0f0f0;
+}
+
+
+.top-bar
+{
+	
+	margin: -10px 0 20px -20px;
+	padding: 1px 0;
+	
+}
+
+.top-bar-back
+{
+	font-size: 20px;
+	margin-top: 12px;
+	margin-left: 20px;
+}
+
+/* --- Back arrow graphic --- */
+.top-bar-back::before
+{
+	content: '';
+	display: block;
+	float: left;
+	border: 3px solid black;
+	border-style: solid none none solid;
+	transform: rotate(-45deg);
+	width: 10px;
+	height: 10px;
+	margin-top: 5px;
+	margin-right: 4px;
+}
+
+
+/* ----- Bottom bar (placed just under top bar) ----- */
+.bottom-bar
+{
+	position: relative;
+	display: block;
+	top: 46px;
+	left: 0;
+	margin: -66px 0 66px -20px;
+	padding: 1px 0;
+}
+
+.bottom-bar-buttons
+{
+	margin: 6px 20px;
+}
+
+.bottom-bar-button
+{
+	width: 100px;
+	height: 32px;
+	background-color: #2087FC;
+	color: #fff;
+	border: none;
+	margin: 0 10px 0 auto;
+}
+
+.bottom-bar-button > img
+{
+	display: none;
+}
+
+.bottom-bar-button > span
+{
+	display: block;
+	width: 100px;
+	line-height: 32px;
+	text-align: center;
+}

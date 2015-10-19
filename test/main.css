@@ -1,0 +1,47 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+html
+{
+	width: 480px;
+	height: 800px;
+	font-family: sans-serif;
+	padding: 10px 20px;
+}
+
+body
+{
+
+}
+
+
+/* ----- Text elements ----- */
+
+p
+{
+	margin: 10px 0;
+}
+
+/* ----- Controls ----- */
+
+button
+{
+	height: 32px;
+	padding: 0px 10px;
+}
+
+input
+{
+	height: 32px;
+	line-height: 32px;
+	padding: 0px 10px;
+}
+
+.top-bar
+{
+	display: none;
+}
+
+.bottom-bar
+{
+	display: none;
+}
